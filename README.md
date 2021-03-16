@@ -32,11 +32,27 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
-1. Describe component state.
+                   -Instead of a huge js file, you have several components which is
+                   -far more practical and re-usable
+                   -counter example, cards, profiles etc.
 
-1. Describe props.
+1. Describe component state/props
+                  
+                  application state, adjusts:
+                  e.g. traffic light, soccer game, to do app. 
+
+                  vs props:
+                   -both state and props are js objects
+                   -both hold info
+                   -that info influences render
+                   -difference: props gets passed, state is within
 
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+
+              -no side effects: component always renders same
+              -bugs, inconsistencies
+              -anything affecting sth outside of function scope
+              -e.g. fetching data from an API, timers, logging, and manually manipulating the DOM 
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
